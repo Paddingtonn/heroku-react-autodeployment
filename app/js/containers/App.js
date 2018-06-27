@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "../style/app.css";
+import "../sass/app.css";
 import Reset from './resetForm.js';
 
 class App extends Component{
