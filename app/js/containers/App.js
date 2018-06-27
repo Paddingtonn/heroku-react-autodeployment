@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import "../sass/app.css";
 import Reset from './resetForm.js';
 
 class App extends Component{

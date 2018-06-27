@@ -1,4 +1,3 @@
-import "../sass/reset_state.css";
 import React, { Component } from 'react';
 
 class Reset extends Component{
