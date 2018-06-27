@@ -1,7 +1,7 @@
-import React from "react";
 import "../style/reset_state.css";
+import React, { Component } from 'react';
 
-class Reset extends React.Component{
+class Reset extends Component{
     state = {
         box_1: 'hidden',
     };

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import React from 'react';
 import "../style/app.css";
 import Reset from './resetForm.js';
 
