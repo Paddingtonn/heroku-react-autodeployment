@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Reset from './resetForm.js';
+import '../../sass/app.css'
 
 class App extends Component{
     constructor(props) {
