@@ -1,0 +1,146 @@
+.reset_form{
+  height: 330px;
+  width: 450px;
+  background-color: inherit;
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 4px 33px 7px rgba(0,0,0,0.84);
+  box-shadow: 3px 4px 33px 7px rgba(0,0,0,0.84);
+  position: relative;
+}
+.header{
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 45px;
+  font-size: 25px;
+  color: whitesmoke;
+  text-shadow: 3px 3px 3px rgba(146, 150, 150, 1);
+}
+.instruction{
+  width: 85%;
+  margin-left: 35px;
+  margin-top: 25px;
+  font-size: 16px;
+}
+.reset_inputs_container{
+  margin-left: 35px;
+  margin-top: 15px;
+  width: 85%;
+  position: relative;
+}
+#reset_required{
+  height: 23px;
+  width: 68px;
+  background-color: darkviolet;
+  text-align: center;
+  border-radius: 8px;
+  position: absolute;
+  right: 10px;
+  bottom: 145px;
+}
+#reset_required::before{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-color: darkviolet transparent transparent transparent;
+  border-width: 8px;
+  margin-top: 23px;
+  margin-left: 20px;
+}
+#reset_button{
+  height: 35px;
+  width: 143px;
+  position: absolute;
+  right: 7%;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+#cancel_button{
+  height: 35px;
+  width: 72px;
+  position: absolute;
+  left: 7%;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: 1px solid red;
+  background-color: white;
+  color: red;
+}
+.stage1{
+  display: none;
+}
+.stage2{
+  position: absolute;
+  top: 30%;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+}
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+.fadeIn{
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+.stage3{
+  position: absolute;
+  top: 30%;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeOut {
+  0% {opacity: 1}
+  100% {opacity: 0}
+}
+@keyframes fadeOut {
+  0% {opacity: 1}
+  100% {opacity: 0}
+}
+.fadeOut{
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+@media only screen and (max-width: 349px){
+  .header{
+    font-size: 15px;
+    right: -5%;
+  }
+  .reset_form{
+    width: 95vw;
+  }
+  .instruction{
+    font-size: 13px;
+  }
+  #reset_required{
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+  .header{
+    font-size: 16px;
+    right: -5%;
+  }
+  .reset_form{
+    width: 95vw;
+  }
+  .instruction{
+    font-size: 14px;
+  }
+  #reset_required{
+    bottom: 155px;
+  }
+}
