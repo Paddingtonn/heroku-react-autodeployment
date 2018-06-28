@@ -3,7 +3,6 @@ import {
     Link,
     Redirect,
 } from 'react-router-dom';
-import "../../sass/form.scss"
 
 class Form extends Component{
     state = {

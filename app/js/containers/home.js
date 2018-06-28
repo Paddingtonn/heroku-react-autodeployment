@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import "../../sass/firstPage.css";
 
 class TexTyper extends Component{
 
