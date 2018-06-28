@@ -27,7 +27,7 @@ module.exports = {
                 test: /\.(png|jpg|ico|gif|mp4)$/,
                 loader: 'file-loader',
                 query: {
-                    name: 'assets/img/[name].[ext]'
+                    name: 'images/[hash]-[name].[ext]'
                 }
             },
             {
