@@ -97,7 +97,7 @@ class App extends Component{
             <div className={this.state.classForm}>
                 <div className="form">
                     <div className="head_form">
-                        <div className="head_icon" alt="chewbacca face"></div>
+                        <div className="head_icon" style={{backgroundImage:"../../images/chewbacca-icon.jpeg"}} alt="chewbacca face"></div>
                     </div>
                     <form method="post" onSubmit={this.onSubmit}>
                         <p className="inputs">EMAIL ADDRESS</p>
