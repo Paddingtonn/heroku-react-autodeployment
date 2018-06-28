@@ -3,6 +3,13 @@ import Home from './home.js';
 import AppCalendar from './appCalendar.js';
 import LogInForm from './login.js';
 import Sample from './sample.js';
+import {
+    HashRouter,
+    Route,
+    Link,
+    Switch,
+    NavLink,
+} from 'react-router-dom';
 
 class Navigation extends Component{
     render(){

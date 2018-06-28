@@ -1,4 +1,3 @@
-import React from 'react';
 import food from './food.js';
 import React, { Component } from 'react';
 console.log(food);
