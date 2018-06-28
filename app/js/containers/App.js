@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Home from './home.jsx';
-import AppCalendar from './appCalendar.jsx';
-import LogInForm from './login.jsx';
-import Sample from './sample.jsx';
+import Home from './home.js';
+import AppCalendar from './appCalendar.js';
+import LogInForm from './login.js';
+import Sample from './sample.js';
 
 class Navigation extends Component{
     render(){
