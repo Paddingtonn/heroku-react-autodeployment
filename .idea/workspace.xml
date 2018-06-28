@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8da383f-65bc-42bf-8932-6a90e59b1ad3" name="Default" comment="" />
+    <list default="true" id="d8da383f-65bc-42bf-8932-6a90e59b1ad3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/images/Romans14-law-of-clean-and-unclean-meats.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/containers/appCalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/containers/appCalendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/containers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/containers/login.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -26,8 +31,8 @@
       <file leaf-file-name="appCalendar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/containers/appCalendar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-342">
-              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="108">
+              <caret line="113" column="23" lean-forward="true" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
               <folding>
                 <element signature="e#1#30#0" expanded="true" />
               </folding>
@@ -35,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
@@ -44,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/containers/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="119" column="41" lean-forward="true" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+            <state relative-caret-position="162">
+              <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -89,13 +94,13 @@
         <option value="$PROJECT_DIR$/app/js/index.js" />
         <option value="$PROJECT_DIR$/app/js/containers/App.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/app/js/containers/appCalendar.js" />
         <option value="$PROJECT_DIR$/app/js/containers/sample.js" />
         <option value="$PROJECT_DIR$/app/sass/firstPage.scss" />
         <option value="$PROJECT_DIR$/app/sass/form.scss" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/app/js/containers/login.js" />
         <option value="$PROJECT_DIR$/app/js/containers/home.js" />
+        <option value="$PROJECT_DIR$/app/js/containers/appCalendar.js" />
+        <option value="$PROJECT_DIR$/app/js/containers/login.js" />
       </list>
     </option>
   </component>
@@ -115,9 +120,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="320" />
-    <option name="y" value="84" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="287" />
+    <option name="y" value="101" />
     <option name="width" value="1001" />
     <option name="height" value="558" />
   </component>
@@ -142,14 +147,13 @@
               <item name="heroku-react-autodeployment" type="b2602c69:ProjectViewProjectNode" />
               <item name="heroku-react-autodeployment" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heroku-react-autodeployment" type="b2602c69:ProjectViewProjectNode" />
               <item name="heroku-react-autodeployment" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heroku-react-autodeployment" type="b2602c69:ProjectViewProjectNode" />
@@ -178,6 +182,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/images" />
       <recent name="$PROJECT_DIR$/app/sass" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/js/containers" />
@@ -207,15 +212,15 @@
       <option name="presentableId" value="Default" />
       <updated>1530112160347</updated>
       <workItem from="1530112163508" duration="8192000" />
-      <workItem from="1530173282908" duration="10453000" />
+      <workItem from="1530173282908" duration="10956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18645000" />
+    <option name="totallyTimeSpent" value="19148000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="320" y="84" width="1001" height="558" extended-state="1" />
+    <frame x="287" y="101" width="1001" height="558" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25974026" />
@@ -395,16 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/containers/appCalendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="e#1#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -412,20 +407,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/containers/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="119" column="41" lean-forward="true" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/822784-grass-wallpaper.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/587480824-vegetable-wallpaper.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/containers/appCalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="113" column="23" lean-forward="true" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
+          <folding>
+            <element signature="e#1#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/containers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

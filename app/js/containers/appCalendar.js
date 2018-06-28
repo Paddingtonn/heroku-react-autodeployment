@@ -113,7 +113,7 @@ console.log(food);
             return <table className="table">
                 <tbody>
                 <tr>
-                    <th className="animImage" rowSpan="2"><img id="calendar-img" src="img/Romans14-law-of-clean-and-unclean-meats.jpg"/></th>
+                    <th className="animImage" rowSpan="2"><img id="calendar-img" src="../../images/Romans14-law-of-clean-and-unclean-meats.jpg"/></th>
                     <th id="calendar-head" colSpan="5">Weekly <span>meal</span> calendar</th>
                     <th><Clock/></th>
                 </tr>

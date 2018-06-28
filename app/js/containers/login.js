@@ -83,31 +83,37 @@ class Form extends Component{
         }
 
 
-        if(errors.error_name.length ===0 && errors.error_email.length===0 && errors.error_pass.length ===0){
+        if(errors.error_name.length ===0 && errors.error_email.length===0 && errors.error_pass.length ===0) {
 
             const user = {name: this.state.name, email: this.state.email, password: this.state.pass};
+            this.setState({
+                login: 'true',
+                user: user,
+            });
 
-            fetch('http://localhost:3000/users', {
-                method: 'POST',
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(user),
-            }).then(resp => {
-                if (resp.ok) {
-                    return resp.json()
-                }else{
-                    throw new Error('Error!');
-                }
-            }).then(data => {
-                this.setState({
-                    login: true,
-                    user: user,
-                })
-            }).catch(err => console.log('Error!!'))
-        }else{
-            this.setState(errors)
+            //
+            //     fetch('http://localhost:3000/users', {
+            //         method: 'POST',
+            //         headers: {
+            //             'Accept': 'application/json',
+            //             'Content-Type': 'application/json'
+            //         },
+            //         body: JSON.stringify(user),
+            //     }).then(resp => {
+            //         if (resp.ok) {
+            //             return resp.json()
+            //         }else{
+            //             throw new Error('Error!');
+            //         }
+            //     }).then(data => {
+            //         this.setState({
+            //             login: true,
+            //             user: user,
+            //         })
+            //     }).catch(err => console.log('Error!!'))
+            // }else{
+            //     this.setState(errors)
+            // }
         }
     };
 
