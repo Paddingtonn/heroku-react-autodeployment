@@ -71,14 +71,15 @@ class Form extends Component{
                 error_email: '',
                 error_pass: '',};
 
-        if(this.state.name.length <= 0) {
-                errors.error_name =  'State your name, please';
+        if(this.state.name.length === 0) {
+                errors.error_name = 'State your name, please'
 
-        }if(this.state.email.match('@') === null || this.state.email.length <= 4){
+        }
+        if(this.state.email.match('@') === null || this.state.email.length <= 4){
+            errors.error_email= 'Wrong email address';
 
-                errors.error_email = 'Wrong email address';
-
-        }if(this.state.pass.length < 4 || this.state.pass.length > 10){
+        }
+        if(this.state.pass.length < 4 || this.state.pass.length > 10){
                 errors.error_pass = 'Either too long or too short password';
         }
 
@@ -90,6 +91,9 @@ class Form extends Component{
                 login: 'true',
                 user: user,
             });
+        }else{
+            this.setState(errors)
+        }
 
             //
             //     fetch('http://localhost:3000/users', {
@@ -114,7 +118,6 @@ class Form extends Component{
             // }else{
             //     this.setState(errors)
             // }
-        }
     };
 
     render(){
