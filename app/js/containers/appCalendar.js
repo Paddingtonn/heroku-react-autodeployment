@@ -9,7 +9,7 @@ console.log(food);
         };
         render() {
             return <div>
-                <h3 style={{color: "rgba(100,344,200,0.4)", marginTop:'-20px', marginRight:'-50px'}}>{this.state.date.toLocaleDateString()}</h3><h2 style={{color: "rgba(100,344,200,0.4)", marginRight:'-50px'}}>{this.state.date.toLocaleTimeString()}</h2>
+                <h3 style={{color: "rgba(100,344,200,0.4)", marginTop:'20px', marginRight:'0px'}}>{this.state.date.toLocaleDateString()}</h3><h2 style={{color: "rgba(100,344,200,0.4)", marginRight:'-10px'}}>{this.state.date.toLocaleTimeString()}</h2>
             </div>
         }
         componentDidMount() {
@@ -56,13 +56,11 @@ console.log(food);
             // })
             const food= {name: this.state.select, grams:this.state.grams};
             this.props.addFood(this.props.name, food);
-            console.log(food.name, "food.name");
         };
         handleGrams = (e) => {
             this.setState({
                 grams: Number(e.target.value),
             });
-            console.log('co to jest?', this.state.grams);
         };
         onFocus = () => {
             this.setState({
@@ -77,13 +75,13 @@ console.log(food);
 
             const food = this.props.item.map((i,index) => <option value={i.name} key={index}>{i.name}</option>);
 
-            return <div style={{position:'relative', overflowY:'scroll'}} className="dynamic_div" onClick={this.slideUp} onDoubleClick={this.slideDown}><ul>{foodArray.map(el => <li>{el.name}</li>)}</ul>
+            return <div className="dynamic_div" onClick={this.slideUp} onDoubleClick={this.slideDown}><ul>{foodArray.map(el => <li>{el.name}</li>)}</ul>
                 <div style={this.state}>
                     <select onChange={this.handleChange}>
                     {food}
                     </select>
                     <input style={{fontWeight:'bold'}} value={this.state.grams} onChange={this.handleGrams} type="text" onFocus={this.onFocus}/>
-                    <button onClick={this.buttonClick} type="submit">EATS</button>
+                    <button className="add" onClick={this.buttonClick} type="submit">ADD</button>
                 </div>
             </div>
         }
@@ -108,12 +106,10 @@ console.log(food);
         };
 
         render(){
-            console.log(this.state.data, "co to?!!");
-
             return <table className="table">
                 <tbody>
                 <tr>
-                    <th className="animImage" rowSpan="2"><img id="calendar-img" src="../../images/Romans14-law-of-clean-and-unclean-meats.jpg"/></th>
+                    <th className="animImage" rowSpan="2"><img id="calendar-img" /></th>
                     <th id="calendar-head" colSpan="5">Weekly <span>meal</span> calendar</th>
                     <th><Clock/></th>
                 </tr>
@@ -337,7 +333,7 @@ console.log(food);
 
         render(){
             return <div className="main-table">
-                <p style={{fontSize:'30px', marginTop:'-90px', marginLeft:'1000px', position:'absolute'}}>Hello {this.props.match ? this.props.match.params.user : ''}! :)</p>
+                <p style={{fontSize:'30px', marginTop:'-90px', position:'absolute', right:'60px'}}>Hello {this.props.match ? this.props.match.params.user : ''}! :)</p>
                 <Calendar/>
             </div>
         }

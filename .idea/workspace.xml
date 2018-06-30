@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d8da383f-65bc-42bf-8932-6a90e59b1ad3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/Wood-Backgrounds-Gallery-55-Plus-PIC-WPW5012643.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/Wood-Backgrounds-Gallery-55-Plus-PIC-WPW5012643.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/containers/appCalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/containers/appCalendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/containers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/containers/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/containers/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/containers/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/containers/sample.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/containers/sample.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/firstPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/firstPage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/form.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,15 +46,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/sass/form.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/containers/home.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appCalendar.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="appCalendar.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/containers/appCalendar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="345" column="27" lean-forward="true" selection-start-line="345" selection-start-column="27" selection-end-line="345" selection-end-column="27" />
+            <state relative-caret-position="164">
+              <caret line="335" column="95" selection-start-line="335" selection-start-column="95" selection-end-line="335" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -81,8 +67,8 @@
       <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="344">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
             </state>
           </provider>
         </entry>
@@ -110,14 +96,14 @@
         <option value="$PROJECT_DIR$/app/js/containers/App.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/app/sass/app.scss" />
-        <option value="$PROJECT_DIR$/app/js/containers/appCalendar.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/js/containers/home.js" />
         <option value="$PROJECT_DIR$/app/js/containers/sample.js" />
         <option value="$PROJECT_DIR$/app/sass/firstPage.scss" />
         <option value="$PROJECT_DIR$/app/js/containers/login.js" />
         <option value="$PROJECT_DIR$/app/sass/form.scss" />
+        <option value="$PROJECT_DIR$/app/sass/app.scss" />
+        <option value="$PROJECT_DIR$/app/js/containers/appCalendar.js" />
       </list>
     </option>
   </component>
@@ -138,8 +124,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="580" />
-    <option name="y" value="210" />
+    <option name="x" value="294" />
+    <option name="y" value="225" />
     <option name="width" value="812" />
     <option name="height" value="558" />
   </component>
@@ -237,15 +223,15 @@
       <updated>1530112160347</updated>
       <workItem from="1530112163508" duration="8192000" />
       <workItem from="1530173282908" duration="16066000" />
-      <workItem from="1530359680157" duration="5671000" />
+      <workItem from="1530359680157" duration="14373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29929000" />
+    <option name="totallyTimeSpent" value="38631000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="580" y="210" width="812" height="558" extended-state="0" />
+    <frame x="294" y="225" width="812" height="558" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20073892" />
@@ -431,20 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/containers/appCalendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="345" column="27" lean-forward="true" selection-start-line="345" selection-start-column="27" selection-end-line="345" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -473,6 +445,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/containers/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -480,10 +459,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/form.scss">
+    <entry file="file://$PROJECT_DIR$/app/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        <state relative-caret-position="344">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/containers/appCalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="335" column="95" selection-start-line="335" selection-start-column="95" selection-end-line="335" selection-end-column="95" />
         </state>
       </provider>
     </entry>
