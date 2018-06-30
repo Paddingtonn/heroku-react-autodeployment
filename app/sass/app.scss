@@ -1,9 +1,10 @@
 *{
   font-family: 'Fredericka the Great', cursive;
   margin: auto 0;
+}
+body{
   overflow-x: hidden;
 }
-
 .main-table{
   background-image: url("../images/Wood-Backgrounds-Gallery-55-Plus-PIC-WPW5012643.png");
   background-size: cover;
@@ -129,7 +130,4 @@ ul{
 .done{
   float: right;
   margin-right: 10px;
-}
-.check{
-  display: none;
 }
