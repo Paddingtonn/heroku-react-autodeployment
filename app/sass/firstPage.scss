@@ -17,7 +17,7 @@
     height: 112px;
     width: 90px;
     position: absolute;
-    top: -282px;
+    top: 0px;
     animation: walk 0.7s steps(4) infinite, forward 20s linear infinite;
     z-index: 0;
 }
@@ -40,7 +40,6 @@
     margin-top: 170px;
     margin-left: 50px;
     align-content: center;
-    position: fixed;
     //background-color: yellowgreen;
 }
 .text{
