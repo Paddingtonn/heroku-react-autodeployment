@@ -3,14 +3,18 @@
     width: 100vw;
     background-image: url("../images/822784-grass-wallpaper.jpg");
     background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 .form{
     border: 1px solid darkolivegreen;
     border-radius: 20px;
+    //position: relative;
     width: 500px;
     min-height: 400px;
     background-image: inherit;
-    transform: translate(60%, 30%);
+    //transform: translate(60%, 30%);
     -webkit-box-shadow: -29px 31px 41px 3px rgba(0,0,0,0.74);
     -moz-box-shadow: -29px 31px 41px 3px rgba(0,0,0,0.74);
     box-shadow: -29px 31px 41px 3px rgba(0,0,0,0.74);
@@ -44,18 +48,21 @@ form input{
 }
 #submit{
     width: 150px;
-    display: inline-block!important;
-    position: relative;
+    float: left;
+    //display: inline-block!important;
+    //position: relative;
     margin-bottom: 35px;
 }
 #checkbox{
     width: 30px;
-    display: inline-block!important;
-    position: absolute;
-    right: 220px;
+    float: left;
+    //display: inline-block!important;
+    //position: absolute;
+    //margin-top: 30px;
 }
-form span{
-    margin-left: 80px;
+#remember{
+    //position: absolute;
+    margin-top: 20px;
     font-size: 18px;
     color: yellowgreen;
 }

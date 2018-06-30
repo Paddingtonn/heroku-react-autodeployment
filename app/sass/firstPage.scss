@@ -1,18 +1,23 @@
 *{
     font-family: 'Fredericka the Great', cursive;
 }
-body{
+#home_background{
     background-image: url("../images/587480824-vegetable-wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 .fatPig{
     background: url("../images/canva-photo-editor (5).png");
     height: 112px;
     width: 90px;
     position: absolute;
-    top: -2px;
+    top: -282px;
     animation: walk 0.7s steps(4) infinite, forward 20s linear infinite;
     z-index: 0;
 }
@@ -22,17 +27,26 @@ body{
 }
 @keyframes forward {
     0%{
-        transform: translateX(2000px);
+        transform: translateX(1300px);
     }
     100%{
         transform: translateX(-1200px);
     }
 }
-
+#text_box{
+    height: 350px;
+    width: 700px;
+    //display: flex;
+    margin-top: 170px;
+    margin-left: 50px;
+    align-content: center;
+    position: fixed;
+    //background-color: yellowgreen;
+}
 .text{
-    position: relative;
-    bottom: -250px;
-    right: -340px;
+    position: absolute;
+    //bottom: -250px;
+    //right: -340px;
 }
 
 @keyframes text-fade {
@@ -40,28 +54,31 @@ body{
     100% {opacity: 1;}
 }
 #firstWorld{
+    position: absolute;
     font-size: 60px;
     float: left;
     opacity: 1;
-    margin-top: -70px;
+    margin-top: 30px;
     margin-left: 100px;
     animation: text-fade 3s 1;
     box-shadow: -4px 10px 15px 1px rgba(0,0,0,0.91);
 }
 #secondWorld{
+    position: absolute;
     font-size: 80px;
     float: left;
     clear: left;
     opacity: 1;
-    margin-top: 80px;
+    margin-top: 160px;
     margin-left: 70px;
     animation: text-fade 3s 1;
     box-shadow: -4px 10px 15px 1px rgba(0,0,0,0.91);
 }
 #thirdWorld{
-    font-size: 140px;
-    margin-left: 80px;
-    position: relative;
+    font-size: 130px;
+    margin-left: 290px;
+    margin-top: 140px;
+    position: absolute;
 }
 .home_list{
     background-color: white;
@@ -82,4 +99,19 @@ a{
     color: lightsalmon;
     font-weight: bold;
     text-shadow: -3px 2px 2px rgba(0, 0, 30, 0.74);
+}
+#go_to_form{
+    background-image: url("../images/587480824-vegetable-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#go_to_form-form{
+    justify-self: center;
+    font-size: 50px;
 }

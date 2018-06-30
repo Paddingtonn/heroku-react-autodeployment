@@ -142,7 +142,7 @@ class Form extends Component{
                     <p style={{color:'white'}}>{this.state.error_pass}</p>
                     <input name="password" type="password" placeholder={this.state.placeholderPass} onFocus={this.onFocusPass} onBlur={this.onBlurPass} onChange={this.handleChange_2}/>
                     <input id="submit" name="submit" type="submit" value="Login"/>
-                    <input id="checkbox" type="checkbox"/><span>Remember me</span>
+                    <input id="checkbox" type="checkbox"/><p id="remember">Remember me</p>
 
                 </form>
             </div>

@@ -337,7 +337,7 @@ console.log(food);
 
         render(){
             return <div className="main-table">
-                <p style={{fontSize:'30px', marginTop:'-90px', marginLeft:'1000px', position:'absolute'}}>Hello {this.props.match ? this.props.match.params.user : ''} !</p>
+                <p style={{fontSize:'30px', marginTop:'-90px', marginLeft:'1000px', position:'absolute'}}>Hello {this.props.match ? this.props.match.params.user : ''}! :)</p>
                 <Calendar/>
             </div>
         }

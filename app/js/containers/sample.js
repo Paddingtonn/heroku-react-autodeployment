@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 class Sample extends Component{
     render(){
-        return <div>
-        <p style={{fontSize:'50px', marginTop:'200px', marginLeft:'470px', background:'inherit'}}>You have to be<br/> logged in :(</p>
+        return <div id="go_to_form">
+        <p id="go_to_form-form">You have to be<br/> logged in :(</p>
         </div>
     }
 }
